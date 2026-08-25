@@ -1,0 +1,188 @@
+
+   INFO  Server running on [http://127.0.0.1:8000].  
+
+  Press Ctrl+C to stop the server
+
+  2026-08-14 11:54:01 / ........................................................................................ ~ 3s
+  2026-08-14 11:54:05 /browse .................................................................................. ~ 1s
+  2026-08-14 11:54:06 /login ............................................................................. ~ 510.12ms
+  2026-08-14 11:54:07 /register ................................................................................ ~ 1s
+  2026-08-14 11:54:21 /login ............................................................................... ~ 1.56ms
+  2026-08-14 11:54:21 /login ................................................................................... ~ 1s
+  2026-08-14 11:54:23 /volunteer/dashboard ..................................................................... ~ 1s
+  2026-08-14 11:54:38 /login ............................................................................. ~ 511.50ms
+  2026-08-14 11:54:39 /login ................................................................................... ~ 1s
+  2026-08-14 11:54:42 /organization/dashboard .................................................................. ~ 1s
+  2026-08-14 11:54:44 /admin/dashboard ..................................................................... ~ 0.48ms
+  2026-08-14 11:54:58 /login ................................................................................... ~ 1s
+  2026-08-14 11:55:01 /login ................................................................................... ~ 2s
+  2026-08-14 11:55:04 /organization/dashboard .................................................................. ~ 1s
+  2026-08-14 11:55:05 /organization/opportunities .............................................................. ~ 1s
+  PHP Fatal error:  Maximum execution time of 30 seconds exceeded in E:\jusoor\storage\framework\views\05ceed2560bf72fde7b1bd21ba73aa4f.php on line 1
+  Stack trace:
+  #0 E:\jusoor\vendor\laravel\framework\src\Illuminate\Filesystem\Filesystem.php(123): require()
+  #1 E:\jusoor\vendor\laravel\framework\src\Illuminate\Filesystem\Filesystem.php(124): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():120}()
+  #2 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\Engines\PhpEngine.php(57): Illuminate\Filesystem\Filesystem->getRequire()
+  #3 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(76): Illuminate\View\Engines\PhpEngine->evaluatePath()
+  #4 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\View.php(208): Illuminate\View\Engines\CompilerEngine->get()
+  #5 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\View.php(191): Illuminate\View\View->getContents()
+  #6 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\View.php(160): Illuminate\View\View->renderContents()
+  #7 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\Concerns\ManagesComponents.php(103): Illuminate\View\View->render()
+  #8 E:\jusoor\storage\framework\views\32dafa903b773f4c1ad8df57f826c69d.php(44): Illuminate\View\Factory->renderComponent()
+  #9 E:\jusoor\vendor\laravel\framework\src\Illuminate\Filesystem\Filesystem.php(123): require('...')
+  #10 E:\jusoor\vendor\laravel\framework\src\Illuminate\Filesystem\Filesystem.php(124): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():120}()
+  #11 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\Engines\PhpEngine.php(57): Illuminate\Filesystem\Filesystem->getRequire()
+  #12 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(76): Illuminate\View\Engines\PhpEngine->evaluatePath()
+  #13 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\View.php(208): Illuminate\View\Engines\CompilerEngine->get()
+  #14 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\View.php(191): Illuminate\View\View->getContents()
+  #15 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\View.php(160): Illuminate\View\View->renderContents()
+  #16 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\Concerns\ManagesComponents.php(103): Illuminate\View\View->render()
+  #17 E:\jusoor\storage\framework\views\269fc2c3f08ecc96bc579e1981837480.php(156): Illuminate\View\Factory->renderComponent()
+  #18 E:\jusoor\vendor\laravel\framework\src\Illuminate\Filesystem\Filesystem.php(123): require('...')
+  #19 E:\jusoor\vendor\laravel\framework\src\Illuminate\Filesystem\Filesystem.php(124): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():120}()
+  #20 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\Engines\PhpEngine.php(57): Illuminate\Filesystem\Filesystem->getRequire()
+  #21 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(76): Illuminate\View\Engines\PhpEngine->evaluatePath()
+  #22 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\View.php(208): Illuminate\View\Engines\CompilerEngine->get()
+  #23 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\View.php(191): Illuminate\View\View->getContents()
+  #24 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\View.php(160): Illuminate\View\View->renderContents()
+  #25 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\Concerns\ManagesComponents.php(103): Illuminate\View\View->render()
+  #26 E:\jusoor\storage\framework\views\f3a14cf7295f93f9714b3c7439bb13ef.php(77): Illuminate\View\Factory->renderComponent()
+  #27 E:\jusoor\vendor\laravel\framework\src\Illuminate\Filesystem\Filesystem.php(123): require('...')
+  #28 E:\jusoor\vendor\laravel\framework\src\Illuminate\Filesystem\Filesystem.php(124): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():120}()
+  #29 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\Engines\PhpEngine.php(57): Illuminate\Filesystem\Filesystem->getRequire()
+  #30 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(76): Illuminate\View\Engines\PhpEngine->evaluatePath()
+  #31 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\View.php(208): Illuminate\View\Engines\CompilerEngine->get()
+  #32 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\View.php(191): Illuminate\View\View->getContents()
+  #33 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\View.php(160): Illuminate\View\View->renderContents()
+  #34 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\Concerns\ManagesComponents.php(103): Illuminate\View\View->render()
+  #35 E:\jusoor\storage\framework\views\478d371c4016305fabc523f4a5b01c55.php(155): Illuminate\View\Factory->renderComponent()
+  #36 E:\jusoor\vendor\laravel\framework\src\Illuminate\Filesystem\Filesystem.php(123): require('...')
+  #37 E:\jusoor\vendor\laravel\framework\src\Illuminate\Filesystem\Filesystem.php(124): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():120}()
+  #38 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\Engines\PhpEngine.php(57): Illuminate\Filesystem\Filesystem->getRequire()
+  #39 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(76): Illuminate\View\Engines\PhpEngine->evaluatePath()
+  #40 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\View.php(208): Illuminate\View\Engines\CompilerEngine->get()
+  #41 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\View.php(191): Illuminate\View\View->getContents()
+  #42 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\View.php(160): Illuminate\View\View->renderContents()
+  #43 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Renderer\Renderer.php(100): Illuminate\View\View->render()
+  #44 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(982): Illuminate\Foundation\Exceptions\Renderer\Renderer->render()
+  #45 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(963): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent()
+  #46 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(942): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+  #47 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(833): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+  #48 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(720): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+  #49 E:\jusoor\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(51): Illuminate\Foundation\Exceptions\Handler->render()
+  #50 E:\jusoor\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(182): Illuminate\Routing\Pipeline->handleException()
+  #51 E:\jusoor\app\Http\Middleware\CheckRole.php(19): Illuminate\Pipeline\Pipeline->{closure:Illuminate\Pipeline\Pipeline::prepareDestination():178}()
+  #52 E:\jusoor\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): App\Http\Middleware\CheckRole->handle()
+  #53 E:\jusoor\vendor\laravel\framework\src\Illuminate\Routing\Middleware\SubstituteBindings.php(52): Illuminate\Pipeline\Pipeline->{closure:{closure:Illuminate\Pipeline\Pipeline::carry():194}:195}()
+  #54 E:\jusoor\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Routing\Middleware\SubstituteBindings->handle()
+  #55 E:\jusoor\vendor\laravel\framework\src\Illuminate\Auth\Middleware\Authenticate.php(63): Illuminate\Pipeline\Pipeline->{closure:{closure:Illuminate\Pipeline\Pipeline::carry():194}:195}()
+  #56 E:\jusoor\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Auth\Middleware\Authenticate->handle()
+  #57 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\PreventRequestForgery.php(104): Illuminate\Pipeline\Pipeline->{closure:{closure:Illuminate\Pipeline\Pipeline::carry():194}:195}()
+  #58 E:\jusoor\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Foundation\Http\Middleware\PreventRequestForgery->handle()
+  #59 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\Middleware\ShareErrorsFromSession.php(48): Illuminate\Pipeline\Pipeline->{closure:{closure:Illuminate\Pipeline\Pipeline::carry():194}:195}()
+  #60 E:\jusoor\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\View\Middleware\ShareErrorsFromSession->handle()
+  #61 E:\jusoor\vendor\laravel\framework\src\Illuminate\Session\Middleware\StartSession.php(120): Illuminate\Pipeline\Pipeline->{closure:{closure:Illuminate\Pipeline\Pipeline::carry():194}:195}()
+  #62 E:\jusoor\vendor\laravel\framework\src\Illuminate\Session\Middleware\StartSession.php(63): Illuminate\Session\Middleware\StartSession->handleStatefulRequest()
+  #63 E:\jusoor\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Session\Middleware\StartSession->handle()
+  #64 E:\jusoor\vendor\laravel\framework\src\Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse.php(36): Illuminate\Pipeline\Pipeline->{closure:{closure:Illuminate\Pipeline\Pipeline::carry():194}:195}()
+  #65 E:\jusoor\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle()
+  #66 E:\jusoor\vendor\laravel\framework\src\Illuminate\Cookie\Middleware\EncryptCookies.php(74): Illuminate\Pipeline\Pipeline->{closure:{closure:Illuminate\Pipeline\Pipeline::carry():194}:195}()
+  #67 E:\jusoor\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Cookie\Middleware\EncryptCookies->handle()
+  #68 E:\jusoor\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(137): Illuminate\Pipeline\Pipeline->{closure:{closure:Illuminate\Pipeline\Pipeline::carry():194}:195}()
+  #69 E:\jusoor\vendor\laravel\framework\src\Illuminate\Routing\Router.php(821): Illuminate\Pipeline\Pipeline->then()
+  #70 E:\jusoor\vendor\laravel\framework\src\Illuminate\Routing\Router.php(800): Illuminate\Routing\Router->runRouteWithinStack()
+  #71 E:\jusoor\vendor\laravel\framework\src\Illuminate\Routing\Router.php(764): Illuminate\Routing\Router->runRoute()
+  #72 E:\jusoor\vendor\laravel\framework\src\Illuminate\Routing\Router.php(753): Illuminate\Routing\Router->dispatchToRoute()
+  #73 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(200): Illuminate\Routing\Router->dispatch()
+  #74 E:\jusoor\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(180): Illuminate\Foundation\Http\Kernel->{closure:Illuminate\Foundation\Http\Kernel::dispatchToRouter():197}()
+  #75 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->{closure:Illuminate\Pipeline\Pipeline::prepareDestination():178}()
+  #76 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull.php(31): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle()
+  #77 E:\jusoor\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull->handle()
+  #78 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->{closure:{closure:Illuminate\Pipeline\Pipeline::carry():194}:195}()
+  #79 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TrimStrings.php(51): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle()
+  #80 E:\jusoor\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Foundation\Http\Middleware\TrimStrings->handle()
+  #81 E:\jusoor\vendor\laravel\framework\src\Illuminate\Http\Middleware\ValidatePostSize.php(27): Illuminate\Pipeline\Pipeline->{closure:{closure:Illuminate\Pipeline\Pipeline::carry():194}:195}()
+  #82 E:\jusoor\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Http\Middleware\ValidatePostSize->handle()
+  #83 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance.php(109): Illuminate\Pipeline\Pipeline->{closure:{closure:Illuminate\Pipeline\Pipeline::carry():194}:195}()
+  #84 E:\jusoor\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance->handle()
+  #85 E:\jusoor\vendor\laravel\framework\src\Illuminate\Http\Middleware\HandleCors.php(61): Illuminate\Pipeline\Pipeline->{closure:{closure:Illuminate\Pipeline\Pipeline::carry():194}:195}()
+  #86 E:\jusoor\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Http\Middleware\HandleCors->handle()
+  #87 E:\jusoor\vendor\laravel\framework\src\Illuminate\Http\Middleware\TrustProxies.php(58): Illuminate\Pipeline\Pipeline->{closure:{closure:Illuminate\Pipeline\Pipeline::carry():194}:195}()
+  #88 E:\jusoor\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Http\Middleware\TrustProxies->handle()
+  #89 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\InvokeDeferredCallbacks.php(22): Illuminate\Pipeline\Pipeline->{closure:{closure:Illuminate\Pipeline\Pipeline::carry():194}:195}()
+  #90 E:\jusoor\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Foundation\Http\Middleware\InvokeDeferredCallbacks->handle()
+  #91 E:\jusoor\vendor\laravel\framework\src\Illuminate\Http\Middleware\ValidatePathEncoding.php(28): Illuminate\Pipeline\Pipeline->{closure:{closure:Illuminate\Pipeline\Pipeline::carry():194}:195}()
+  #92 E:\jusoor\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(219): Illuminate\Http\Middleware\ValidatePathEncoding->handle()
+  #93 E:\jusoor\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(137): Illuminate\Pipeline\Pipeline->{closure:{closure:Illuminate\Pipeline\Pipeline::carry():194}:195}()
+  #94 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(175): Illuminate\Pipeline\Pipeline->then()
+  #95 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(144): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+  #96 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1227): Illuminate\Foundation\Http\Kernel->handle()
+  #97 E:\jusoor\public\index.php(20): Illuminate\Foundation\Application->handleRequest()
+  #98 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\resources\server.php(23): require_once('...')
+  #99 {main}
+  PHP Fatal error:  Maximum execution time of 30 seconds exceeded in E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Renderer\Exception.php on line 130
+  Stack trace:
+  #0 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Renderer\Exception.php(130): realpath()
+  #1 [internal function]: Illuminate\Foundation\Exceptions\Renderer\Exception->{closure:{closure:Illuminate\Foundation\Exceptions\Renderer\Exception::frames():128}:129}()
+  #2 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Renderer\Exception.php(129): array_map()
+  #3 [internal function]: Illuminate\Foundation\Exceptions\Renderer\Exception->{closure:Illuminate\Foundation\Exceptions\Renderer\Exception::frames():128}()
+  #4 E:\jusoor\vendor\laravel\framework\src\Illuminate\Support\Once.php(67): call_user_func()
+  #5 E:\jusoor\vendor\laravel\framework\src\Illuminate\Support\helpers.php(256): Illuminate\Support\Once->value()
+  #6 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Renderer\Exception.php(128): once()
+  #7 E:\jusoor\storage\framework\views\74f6a0e3160eac7d2f77856259fc90c4.php(16): Illuminate\Foundation\Exceptions\Renderer\Exception->frames()
+  #8 E:\jusoor\vendor\laravel\framework\src\Illuminate\Filesystem\Filesystem.php(123): require('...')
+  #9 E:\jusoor\vendor\laravel\framework\src\Illuminate\Filesystem\Filesystem.php(124): Illuminate\Filesystem\Filesystem::{closure:Illuminate\Filesystem\Filesystem::getRequire():120}()
+  #10 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\Engines\PhpEngine.php(57): Illuminate\Filesystem\Filesystem->getRequire()
+  #11 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(76): Illuminate\View\Engines\PhpEngine->evaluatePath()
+  #12 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\View.php(208): Illuminate\View\Engines\CompilerEngine->get()
+  #13 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\View.php(191): Illuminate\View\View->getContents()
+  #14 E:\jusoor\vendor\laravel\framework\src\Illuminate\View\View.php(160): Illuminate\View\View->renderContents()
+  #15 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Renderer\Renderer.php(95): Illuminate\View\View->render()
+  #16 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(982): Illuminate\Foundation\Exceptions\Renderer\Renderer->render()
+  #17 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(963): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent()
+  #18 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(942): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+  #19 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(833): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+  #20 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(720): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+  #21 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(226): Illuminate\Foundation\Exceptions\Handler->render()
+  #22 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(203): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+  #23 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(239): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+  #24 E:\jusoor\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(263): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+  #25 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():262}()
+  #26 {main}
+  2026-08-14 11:55:06 /organization/applications .............................................................. ~ 32s
+  2026-08-14 11:55:39 /organization/hours ...................................................................... ~ 1s
+  2026-08-14 11:56:50 /login ............................................................................. ~ 514.58ms
+  2026-08-14 11:56:51 /login ................................................................................... ~ 1s
+  2026-08-14 11:56:52 /organization/applications ......................................................... ~ 535.03ms
+  2026-08-14 11:57:13 /login ............................................................................. ~ 509.14ms
+  2026-08-14 11:57:13 /login ................................................................................... ~ 1s
+  2026-08-14 11:57:14 /opportunities/1 ................................................................... ~ 517.86ms
+  2026-08-14 11:57:15 /opportunities/1/apply .................................................................. ~ 13s
+  2026-08-14 11:57:29 /volunteer/dashboard ............................................................... ~ 518.74ms
+  2026-08-14 11:57:29 /volunteer/applications .................................................................. ~ 1s
+  2026-08-14 11:57:31 /volunteer/hours ................................................................... ~ 530.42ms
+  2026-08-14 11:57:31 /notifications ........................................................................... ~ 1s
+  2026-08-14 11:57:42 /login ................................................................................... ~ 1s
+  2026-08-14 11:57:44 /login ................................................................................... ~ 4s
+  2026-08-14 11:57:48 /opportunities/8 ......................................................................... ~ 1s
+  2026-08-14 11:57:49 /opportunities/8/apply ................................................................... ~ 3s
+  2026-08-14 11:57:57 /volunteer/applications .................................................................. ~ 1s
+  2026-08-14 11:58:25 /login ............................................................................. ~ 507.97ms
+  2026-08-14 11:58:25 /login ................................................................................... ~ 1s
+  2026-08-14 11:58:27 /organization/hours ................................................................ ~ 540.79ms
+  2026-08-14 11:58:28 /organization/hours/1 .............................................................. ~ 518.91ms
+  2026-08-14 11:58:29 /organization/opportunities/create ....................................................... ~ 1s
+  2026-08-14 11:58:30 /organization/opportunities/1/edit ....................................................... ~ 1s
+  2026-08-14 11:58:44 /login ............................................................................. ~ 513.04ms
+  2026-08-14 11:58:44 /login ................................................................................... ~ 1s
+  2026-08-14 11:58:46 /organization/hours/1 .............................................................. ~ 515.79ms
+  2026-08-14 11:58:48 /login ............................................................................. ~ 516.51ms
+  2026-08-14 11:58:48 /login ................................................................................... ~ 1s
+  2026-08-14 11:58:50 /admin/dashboard ......................................................................... ~ 1s
+  2026-08-14 11:58:51 /volunteer/dashboard ............................................................... ~ 506.01ms
+  2026-08-14 11:59:05 /login ............................................................................... ~ 0.38ms
+  2026-08-14 11:59:06 /login ................................................................................... ~ 2s
+  2026-08-14 11:59:09 /organization/hours/1 .............................................................. ~ 520.21ms
+  2026-08-14 11:59:09 /organization/hours/1 ................................................................ ~ 0.24ms
+  2026-08-14 11:59:15 /volunteer/dashboard ................................................................. ~ 0.32ms
+  2026-08-14 12:02:48 / .................................................................................. ~ 506.61ms
